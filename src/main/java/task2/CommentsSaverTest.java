@@ -25,14 +25,16 @@ public class CommentsSaverTest {
                  if (input.equals("exit")) {
                     System.out.println("Бувай!");
                     System.exit(0);
-                }
-                System.out.println("Некоректне введення!");
+                } else {
+                     System.out.println("Некоректне введення!");
+                 }
             } else {
                 int inputId = Integer.parseInt(input);
                 if (inputId > 0 && inputId <= 10) {
                     CommentsSaver.writeJsonFile(POST_URL, inputId);
-                }
+                } else {
                     System.out.println("Неправильний id користувача");
+                }
             }
         }
     }

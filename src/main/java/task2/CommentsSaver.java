@@ -67,7 +67,7 @@ public class CommentsSaver {
 
         String jsonString = gson.toJson(commentsToPost);
 
-        try (FileWriter writer = new FileWriter(".//src//main//resources//created_json_files//user-" + userId + "-post-" + (userId * 10) + ".json")) {
+        try (FileWriter writer = new FileWriter(".//src//main//resources//user-" + userId + "-post-" + (userId * 10) + ".json")) {
             writer.write(jsonString);
         } catch (IOException e) {
             System.err.println(e.getMessage());
