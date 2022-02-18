@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "name": "Dmytro Stas",
+  "username": "Skaner",
+  "email": "Skaner@gmai.com",
+  "address": {
+    "street": "Kuskus",
+    "suite": "Apt. 556",
+    "city": "Moohich",
+    "zipcode": "4525600",
+    "geo": {
+      "lat": "-418.2545",
+      "lng": "69.6969"
+    }
+  },
+  "phone": "25-266-265-123",
+  "website": "moodle.com",
+  "company": {
+    "name": "Corop Ltd.",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
